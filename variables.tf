@@ -1,5 +1,5 @@
 variable "ibmcloud_api_key" {
-   default = "06f926a6-4c43-4ebd-843a-b923d8fdd5cc"
+   default = "W60UBjxQybPzzu5vwcNuXrDEhXMEdB6IrFB62qsvvkoj"
 }
 variable "machine_type" {
    default = "b2c.8x32"
