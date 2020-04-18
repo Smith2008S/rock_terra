@@ -1,5 +1,5 @@
 variable "ibmcloud_api_key" {
-   default = "a47020190de8b75e3084a1c9ddf3a5016658ca82cffcd17f92060abc7ee81d0b"
+   default = "crn:v1:bluemix:public:kms:us-south:a/d756a6aef0ed4d18ad43aa70cfef033d:d5a52477-5ce8-47f1-99fe-ebd689c22001:key:06f926a6-4c43-4ebd-843a-b923d8fdd5cc"
 }
 variable "machine_type" {
    default = "b2c.8x32"
