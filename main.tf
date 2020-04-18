@@ -7,6 +7,7 @@ resource "ibm_container_cluster" "cluster" {
   kube_version      = "${var.kube_version}"
   public_vlan_id    = "${var.public_vlan_id}"
   private_vlan_id   = "${var.private_vlan_id}"
+  resource_group_id = "6764d0853c60419180ba88daafce32c4"
 }
 
 resource "random_id" "name" {
