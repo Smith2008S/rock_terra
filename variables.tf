@@ -1,5 +1,5 @@
 variable "ibmcloud_api_key" {
-   default = "654c6b9c-3a0c-49b4-8ee2-ea90bee4be5a"
+   default = "a47020190de8b75e3084a1c9ddf3a5016658ca82cffcd17f92060abc7ee81d0b"
 }
 variable "machine_type" {
    default = "b2c.8x32"
@@ -12,9 +12,6 @@ variable "datacenter" {
   default = "dal13"
 }
 
-variable ibm_region {
-    default     = "us-south"
-}
 
 variable "default_pool_size" {
   default = "1"
