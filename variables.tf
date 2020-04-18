@@ -12,6 +12,10 @@ variable "datacenter" {
   default = "dal13"
 }
 
+variable ibm_region {
+    default     = "us-south"
+}
+
 variable "default_pool_size" {
   default = "1"
 }
