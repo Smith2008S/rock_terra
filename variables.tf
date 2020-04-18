@@ -7,16 +7,20 @@ variable "hardware" {
 }
 
 variable "datacenter" {
-  default = "wdc07"
+  default = "dal13"
 }
 
 variable "default_pool_size" {
-  default = "2"
+  default = "1"
 }
 
-variable "private_vlan_id" {}
+variable "private_vlan_id" {
+   default = "2851978"
+}
 
-variable "public_vlan_id" {}
+variable "public_vlan_id" {
+   default = "2851976"
+}
 
 variable "cluster_name" {
   default = "cluster"
